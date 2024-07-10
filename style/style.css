@@ -55,3 +55,14 @@ margin-bottom: 44px;
 }
 
 /* hero section end */
+
+.development-section{
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+}
+.development-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
