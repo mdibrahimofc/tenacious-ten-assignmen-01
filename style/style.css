@@ -3,7 +3,8 @@
     padding: 0;
     text-decoration: none;
     font-family: "Azeret Mono", monospace;
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
     
 }
 
@@ -14,8 +15,8 @@
     display: flex;
     justify-content: center;
     background-image: url(../assets/Hero-bg.png);
-    background-size: 1440px;
     background-position: center;
+    
 }
 
 .hero{
@@ -42,7 +43,7 @@ line-height: 26px;
 margin-top: 24px;
 }
 
-.contact{
+.contacts{
     color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
@@ -55,9 +56,12 @@ margin-bottom: 44px;
 }
 
 /* hero section end */
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .development-section{
-    max-width: 1140px;
     display: flex;
     justify-content: center;
 }

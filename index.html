@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <body>
+    <header>
         <section>
             <div class="hero-section">
                 <div class="hero">
                     <img class="group" src="./assets/Group.png" alt="">
                     <h1 class="hero-heading">"In the near future, I hope to become a Developer."</h1>
                     <p class="hero-heading-description">I'm learning MERN stack web development. Now, I am more focused on front-end development</p>
-                    <button class="contact">Contact with me</button>
+                    <button class="contacts" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Contact with me</button>
                 </div>
             </div>
         </section>
-    </body>
+    </header>
 
-    <header>
-        <section>
+    
+        <section class="main">
             <div class="development-section">
                 <div class="development">
                     <div class="development-heading">
@@ -57,10 +57,12 @@
                 </div>
             </div>
         </section>
-    </header>
 
     <footer>
-
+        <div id="contact">
+            <h1>hello world</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, a, enim rerum voluptatibus illum perferendis alias ipsa fugiat velit quis voluptatum excepturi dolorum beatae eius sit debitis exercitationem porro dolore!</p>
+        </div>
     </footer>
 </body>
 </html>
