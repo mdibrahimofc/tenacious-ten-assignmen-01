@@ -253,30 +253,43 @@ border: none;
 /* card section end */
 
 /* support session start */
-.support{
-    display: flex;
-width: 1140px;
-padding: 64px 48px;
-flex-direction: column;
-align-items: flex-start;
-gap: 32px;
-}
 
 .support-section{
-    max-width: 1140px;
-    margin: 49px auto 80px auto;
     background-image: url(../assets/handshake.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 16px;
 }
 
-form{
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.support-form{
     display: flex;
     justify-content: center;
+    gap: 16px;
     align-items: center;
-    max-width: 570px;
-    margin: 24px auto 84px auto;
+    text-align: center;
+}
+
+input{
+    height: 57px;
+    width: 548px;
+}
+
+button{
+width: 120px;
+padding: 17px 20px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+color: #0D1321;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
 }
 /* support session end */
 
