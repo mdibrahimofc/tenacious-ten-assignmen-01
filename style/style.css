@@ -39,6 +39,10 @@ margin-left: 20px;
 /* shared style end */
 
 /* start hero section */
+
+.hero img{
+    padding-top: 30px;
+}
 .hero-section{
     display: flex;
     justify-content: center;
