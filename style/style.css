@@ -96,7 +96,7 @@ margin-bottom: 44px;
     justify-content: center;
     text-align: center;
     margin-top: 74px;
-    margin-bottom: 90px;
+    padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
@@ -127,3 +127,5 @@ margin: 80px 0 24px 0;
     max-height: 240px;
     max-width: 274px;
 }
+/* development section end */
+
